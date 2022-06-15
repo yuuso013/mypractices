@@ -2,7 +2,6 @@ import { StatusBar } from 'expo-status-bar';
 import { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Componente from "./componentes/texto.tsx";
-import Boton from "./componentes/boton.tsx";
 
 export default function App() {
   return (
