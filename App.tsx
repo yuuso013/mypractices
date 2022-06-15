@@ -6,7 +6,7 @@ import Componente from "./componentes/texto.tsx";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Mis Prácticas Profesionalizantes</Text>
+      <Text>Mis Prácticas Profesionalizantes 2</Text>
       <StatusBar style="auto" />
     </View>
   );
