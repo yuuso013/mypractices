@@ -7,7 +7,7 @@ import Boton from "./componentes/boton.tsx";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Mis Prácticas (Profesionalizantes</Text>
+      <Text>Mis Prácticas Profesionalizantes</Text>
       <StatusBar style="auto" />
     </View>
   );
