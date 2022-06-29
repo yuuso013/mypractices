@@ -9,15 +9,15 @@ export default class App extends Component {
 
         <Button 
           color="blue" size="medium" title="aceptar!">
-        </Button>
+        </Button><br/>
 
         <Button 
           color="blue" size="medium" title="rechazar!">
-        </Button>
+        </Button><br/>
 
         <Button 
           color="blue" size="medium" title="guardar!">
-        </Button>
+        </Button><br/>
 
       </view>
     )

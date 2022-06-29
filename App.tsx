@@ -1,12 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { Component } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Form } from 'react-native';
 import  Boton from "./componentes/Boton";
+import FormularioIngreso from "./componentes/FormularioIngreso";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Boton></Boton>
+      <FormularioIngreso></FormularioIngreso>
     </View>
   );
 }
