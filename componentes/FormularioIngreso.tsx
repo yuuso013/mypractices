@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { Component } from 'react';
-import { StyleSheet, Text, View, Form } from 'react-native';
+import { StyleSheet, TextInput, View, Form } from 'react-native';
 import { useForm } from "react-hook-form";
 
 const Formulario = () => {
@@ -9,7 +9,7 @@ const Formulario = () => {
 
     return (
         <div>
-            <h2>Formulario</h2>
+            <h2>Añadir usuario</h2>
             <form>
 
                 <div>
@@ -19,7 +19,6 @@ const Formulario = () => {
                         <option value="tde">Tutor de empresa</option>
                         <option value="prof">Profesor</option>
                         <option value="est">Estudiante</option>
-
                     </select>
                 </div>
 
@@ -38,7 +37,12 @@ const Formulario = () => {
                     <input type="number" name="dni"/>
                 </div>
 
-                <input type="submit" value="enviar"/>
+                <div>
+                    <label htmlFor="password">Contraseña</label>
+                    <input type="password" name="password"/>
+                </div>
+
+                <input type="submit" value="Guardar"/>
 
             </form>
 
