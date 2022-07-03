@@ -1,11 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
-import { Component } from 'react';
-import { StyleSheet, TextInput, View, Form } from 'react-native';
 import { useForm } from "react-hook-form";
 
 const Formulario = () => {
 
-    const { register, handleSubmit } = useForm();
+    /*const { register, handleSubmit } = useForm();*/
 
     return (
         <div>
@@ -47,7 +44,8 @@ const Formulario = () => {
             </form>
 
         </div>
-    )
+
+    );
 }
 
 export default Formulario;
