@@ -16,10 +16,10 @@ function App() {
         {isAuthenticated ? (
           <>
             <Profile />
-            <LogoutButton />
+            <LogoutButton/>
           </>
         ) : (
-          <LoginButton />
+          <LoginButton/>
         )}
       </header>
     </div>
