@@ -10,3 +10,9 @@ export default function Screen_cursos(){
         </View>
     );
 }
+
+const Footer = () => {
+    return(
+        
+    );
+}
