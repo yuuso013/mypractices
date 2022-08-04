@@ -6,6 +6,7 @@ export default function Screen_cursos(){
         <View>
             <Button title="E.P.E.T.20" onPress={() => console.log("Redireccionado")}></Button>
             <Button title="5°" onPress={() => console.log("Quinto")}></Button>
+            <Button title="6°" onPress={() => console.log("Sexto")}></Button>
         </View>
     );
 }
