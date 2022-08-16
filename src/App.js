@@ -1,27 +1,17 @@
-import { useAuth0 } from "@auth0/auth0-react";
-
-import { LoginButton } from "./Login";
-import { LogoutButton } from "./Logout";
-import { Profile } from "./Profile";
-import logo from "./logo.svg";
-import "./App.css";
+import Header from "./UI/Components/Header";
+import ScreenCourses from "./UI/Components/ScreenCourses";
+import { ScreenCoursesSection5 } from "./UI/Components/ScreenCoursesSection5";
+import { ScreenCoursesSection6 } from "./UI/Components/ScreenCoursesSection6";
+import "./UI/Components/Styles/estilos.css"
+import React from "react";
 
 function App() {
-  const { isAuthenticated } = useAuth0();
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        {isAuthenticated ? (
-          <>
-            <Profile />
-            <LogoutButton/>
-          </>
-        ) : (
-          <LoginButton/>
-        )}
-      </header>
+    <div>
+      <Header></Header>
+      <ScreenCourses></ScreenCourses>
+      <ScreenCoursesSection5></ScreenCoursesSection5>
+      <ScreenCoursesSection6></ScreenCoursesSection6>
     </div>
   );
 }
