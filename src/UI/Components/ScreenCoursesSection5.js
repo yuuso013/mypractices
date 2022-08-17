@@ -14,19 +14,24 @@ export const ScreenCoursesSection5 = () => {
       <>
         <h1>Quinto año (5°)</h1>
 
-        <button type="submit">
-          <Link to="/SectionOne5" className="botonSeccion">
+        <button type="submit" className="App-button-Section">
+          <Link to="/SectionOne5">
             <p>Sección "1"</p>
           </Link>
         </button><br />
-        <button type="submit">
-          <Link to="/SectionTwo5" className="botonSeccion">
+        <button type="submit" className="App-button-Section">
+          <Link to="/SectionTwo5">
             <p>Sección "2"</p>
           </Link>
         </button><br />
-        <button type="submit">
-          <Link to="/SectionThree5" className="botonSeccion">
+        <button type="submit" className="App-button-Section">
+          <Link to="/SectionThree5">
             <p>Sección "3"</p>          
+          </Link>
+        </button><br />
+        <button type="submit" className="App-button-Redirect-Init">
+          <Link to="/ScreenCourses">
+            <p>INICIO</p>
           </Link>
         </button><br />
       </>
