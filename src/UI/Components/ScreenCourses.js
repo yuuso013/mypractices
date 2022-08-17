@@ -14,13 +14,22 @@ export const ScreenCourses = () => {
     isAuthenticated && (
       <>
         <h1>EPET 20</h1>
-      
-        <Link to="/ScreenCoursesSection5" className="botonSeccion">
-          <p>QUINTO AÑO</p>
-        </Link>
-        <Link to="/ScreenCoursesSection6" className="botonSeccion">
-          <p>SEXTO AÑO</p>
-        </Link>
+
+        <button type="submit">
+          <Link to="/ScreenCoursesSection5" className="botonSeccion">
+            <p>QUINTO AÑO</p>
+          </Link>
+        </button><br />
+        <button type="submit">
+          <Link to="/ScreenCoursesSection6" className="botonSeccion">
+            <p>SEXTO AÑO</p>
+          </Link>
+        </button><br />
+        <button type="submit">
+          <Link to="/ScreenCourses" className="botonSeccion">
+            <p>INICIO</p>
+          </Link>
+        </button><br />
       </>
     )
   )

@@ -14,16 +14,22 @@ export const ScreenCoursesSection6 = () => {
     isAuthenticated && (
       <>
         <h1>Sexto año (6°)</h1>
-          
-        <Link to="/SecciónUno" className="botonSeccion">
-          <p>Sección "1"</p>
-        </Link>
-        <Link to="/SecciónDos" className="botonSeccion">
-          <p>Sección "2"</p>
-        </Link>
-        <Link to="/SecciónTres" className="botonSeccion">
-          <p>Sección "3"</p>          
-        </Link>
+        
+        <button type="submit">
+          <Link to="/SectionOne6" className="botonSeccion">
+            <p>Sección "1"</p>
+          </Link>
+        </button><br />
+        <button type="submit">
+          <Link to="/SectionTwo6" className="botonSeccion">
+            <p>Sección "2"</p>
+          </Link>
+        </button><br />
+        <button type="submit">
+          <Link to="/SectionThree6" className="botonSeccion">
+            <p>Sección "3"</p>          
+          </Link>
+        </button><br />
       </>
     )
   )
