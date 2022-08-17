@@ -1,6 +1,7 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 
+
 export const Profile = () => {
   const { user, isAuthenticated, isLoading } = useAuth0();
 
@@ -10,9 +11,9 @@ export const Profile = () => {
 
   return (
     isAuthenticated && (
-      <div className="perfil"> 
-        <h2>¡Hola {user.name}! ¡Bienvenido!</h2>
-        <p>Email: {user.email}</p>
+      <div className="App-profile"> 
+        <h2>¡Hola {user.name}! ¡Bienvenido! Puedes buscar tu lugar de pasantía</h2>
+        <h2>Email: {user.email}</h2>
       </div>
 
     )

@@ -1,18 +1,21 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const ScreenCoursesSection6 = () => {
   return (
-    <div>
+    <>
         <h1>Sexto año (6°)</h1>
-          <button type="submit">
-            Sección "1"
-          </button>
-          <button type="submit">
-            Sección "2"
-          </button>
-          <button type="submit">
-            Sección "3"
-          </button>
-    </div>
+        <Link to="/SecciónUno" className="botonSeccion">
+        <p>Sección "1"</p>
+        </Link>
+        <Link to="/SecciónDos" className="botonSeccion">
+        <p>Sección "2"</p>
+        </Link>
+        <Link to="/SecciónTres" className="botonSeccion">
+        <p>Sección "3"</p>
+        </Link>
+    </>
   )
 }
+
+export default ScreenCoursesSection6
