@@ -8,5 +8,5 @@ export const LoginButton = () => {
     return <div>Loading...</div>;
   }
 
-  return <button onClick={() => loginWithRedirect()}>Iniciar sesión</button>;
+  return <button className="Button" onClick={() => loginWithRedirect()}>Iniciar sesión</button>;
 }; 
