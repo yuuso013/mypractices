@@ -31,8 +31,8 @@ export const ScreenCoursesSection6 = () => {
           </Link>
         </button><br />
         <button type="submit" className="App-button-Redirect-Init">
-          <Link to="/ScreenCourses">
-            <p>INICIO</p>
+          <Link to="/Section">
+            <p>Inicio</p>
           </Link>
         </button><br />
       </>

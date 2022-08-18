@@ -12,8 +12,8 @@ export const Profile = () => {
   return (
     isAuthenticated && (
       <div className="App-profile"> 
-        <h2>¡Hola {user.name}! ¡Bienvenido! Puedes buscar tu lugar de pasantía</h2>
-        <h2>Email: {user.email}</h2>
+        <h2>¡Hola {user.name}! ¡Bienvenido a Mis Prácticas!</h2>
+        <h2>Email del usuario: {user.email}</h2>
       </div>
 
     )

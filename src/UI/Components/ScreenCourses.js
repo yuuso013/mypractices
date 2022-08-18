@@ -17,17 +17,17 @@ export const ScreenCourses = () => {
 
         <button type="submit" className="App-button-Course">
           <Link to="/ScreenCoursesSection5">
-            <p>QUINTO AÑO</p>
+            <p>Quinto año 5°</p>
           </Link>
         </button><br />
         <button type="submit" className="App-button-Course">
           <Link to="/ScreenCoursesSection6">
-            <p>SEXTO AÑO</p>
+            <p>Sexto año 6°</p>
           </Link>
         </button><br />
         <button type="submit" className="App-button-Redirect-Init">
           <Link to="/Section">
-            <p>INICIO</p>
+            <p>Inicio</p>
           </Link>
         </button><br />
       </>
