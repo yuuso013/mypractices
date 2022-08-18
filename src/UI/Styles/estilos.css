@@ -1,0 +1,44 @@
+* {
+    background-color: #C0D6DF;
+}
+
+.App-header {
+    border:1px solid;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.Section {
+    border:1px solid;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 30px;
+    text-align: center;
+}
+
+.ScreenCourses {
+    border:1px solid;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.App-button-Course {
+    margin: 30px;
+    border-radius: 5px;
+    justify-content: 800px;
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+.App-link-Course {
+    margin: 240px;
+    padding: 130px;
+    border-radius: 5px;
+    justify-content: 800px;
+    text-decoration: none;
+    text-decoration-color: none;
+}

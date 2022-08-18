@@ -11,11 +11,11 @@ export const Section = () => {
 
   return (
     isAuthenticated && (
-        <div>
+        <div className='Section'>
             <p>Consultá tu lugar y horarios de pasante buscando en los siguientes cursos</p>
             
             <button type="submit" className="App-button-Courses">
-                <Link to="/ScreenCourses">
+                <Link to="/ScreenCourses" className="App-link-Course">
                     <p>EPET 20 - Cursos</p>
                 </Link>
             </button><br />
