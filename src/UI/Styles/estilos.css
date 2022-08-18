@@ -2,8 +2,13 @@
     background-color: #C0D6DF;
 }
 
+h1 {
+    margin: 15px;
+    padding: 15px;
+}
+
 .App-header {
-    border:1px solid;
+    border: 1px solid;
     border-radius: 10px;
     margin: 15px;
     padding: 15px;
@@ -11,15 +16,23 @@
 }
 
 .Section {
-    border:1px solid;
+    border: 1px solid;
     border-radius: 10px;
-    margin: 25px;
-    padding: 30px;
+    margin: 15px;
+    padding: 15px;
     text-align: center;
 }
 
 .ScreenCourses {
-    border:1px solid;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.Sections {
+    border: 1px solid;
     border-radius: 10px;
     margin: 15px;
     padding: 15px;
@@ -27,18 +40,29 @@
 }
 
 .App-button-Course {
-    margin: 30px;
-    border-radius: 5px;
-    justify-content: 800px;
+    margin: 20px;
+    padding: 0px 30px;
+    text-overflow: none;
+    text-align: center;
     text-decoration: none;
-    text-decoration-color: none;
 }
 
 .App-link-Course {
-    margin: 240px;
-    padding: 130px;
-    border-radius: 5px;
-    justify-content: 800px;
+    margin: 30px;
+    padding: 0px 300px;
     text-decoration: none;
-    text-decoration-color: none;
+}
+
+.App-button-Redirect-Init {
+    margin: 30px;
+    padding: 0px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Footer {
+    border: 1px solid;
+    border-radius: 1px;
+    background-position-x: fixed;
+    text-align: center;
 }

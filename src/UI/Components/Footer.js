@@ -6,8 +6,8 @@ const Footer = () => {
   const { isAuthenticated } = useAuth0();
   return (
     isAuthenticated && (
-      <div className="footer"> 
-        Síguenos en nuestras redes sociales. Instagram. Facebook. Twitter.
+      <div className="Footer"> 
+        <p>Síguenos en nuestras redes sociales. Instagram. Facebook. Twitter.</p>
       </div>
 
     )

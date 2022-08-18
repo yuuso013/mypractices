@@ -11,30 +11,30 @@ export const ScreenCoursesSection5 = () => {
   
   return (
     isAuthenticated && (
-      <>
+      <div className='ScreenCourses'>
         <h1>Quinto año (5°)</h1>
 
         <button type="submit" className="App-button-Section">
           <Link to="/SectionOne5" className="App-link-Course">
             <p>Sección "1"</p>
           </Link>
-        </button><br />
+        </button><br /><br />
         <button type="submit" className="App-button-Section">
           <Link to="/SectionTwo5" className="App-link-Course">
             <p>Sección "2"</p>
           </Link>
-        </button><br />
+        </button><br /><br />
         <button type="submit" className="App-button-Section">
           <Link to="/SectionThree5" className="App-link-Course">
             <p>Sección "3"</p>          
           </Link>
-        </button><br />
+        </button><br /><br />
         <button type="submit" className="App-button-Redirect-Init">
           <Link to="/Section" className="App-link-Course">
             <p>Inicio</p>
           </Link>
-        </button><br />
-      </>
+        </button><br /><br />
+      </div>
     )
   )
 }

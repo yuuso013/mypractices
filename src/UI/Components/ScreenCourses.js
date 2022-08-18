@@ -19,17 +19,17 @@ export const ScreenCourses = () => {
           <Link to="/ScreenCoursesSection5" className="App-link-Course">
             <p>Quinto año 5°</p>
           </Link>
-        </button><br />
+        </button><br /><br />
         <button type="submit" className="App-button-Course">
           <Link to="/ScreenCoursesSection6" className="App-link-Course">
             <p>Sexto año 6°</p>
           </Link>
-        </button><br />
+        </button><br /><br />
         <button type="submit" className="App-button-Redirect-Init">
           <Link to="/Section" className="App-link-Course">
             <p>Inicio</p>
           </Link>
-        </button><br />
+        </button><br /><br />
       </div>
     )
   )
