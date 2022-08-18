@@ -6,8 +6,8 @@ export const SectionTwo5 = () => {
     <div className='Sections'>
         <h2>5° Año | 2do curso</h2>
 
-        <button type="submit" className="App-button-Redirect-Init">
-          <Link to="/Section" className="App-link-Course">
+        <button type="submit" className="Button">
+          <Link to="/Section" className="Link">
             <p>Inicio</p>
           </Link>
         </button><br /><br />

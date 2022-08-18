@@ -6,16 +6,16 @@ export const Section = () => {
     const { isAuthenticated, isLoading } = useAuth0();
 
     if (isLoading) {
-      return <div>Cargando...</div>;
+      return <div>Loading...</div>;
     }
 
   return (
     isAuthenticated && (
         <div className='Section'>
-            <p>Consultá tu lugar y horarios de pasante buscando en los siguientes cursos</p>
+            <h3>¡Consultá tu lugar y horarios de pasante buscando en los siguientes cursos!</h3>
             
-            <button type="submit" className="App-button-Courses">
-                <Link to="/ScreenCourses" className="App-link-Course">
+            <button type="submit" className="Button">
+                <Link to="/ScreenCourses" className="Link">
                     <p>EPET 20 - Cursos</p>
                 </Link>
             </button><br />

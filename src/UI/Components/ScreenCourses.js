@@ -7,26 +7,26 @@ export const ScreenCourses = () => {
   const { isAuthenticated, isLoading } = useAuth0();
 
   if (isLoading) {
-    return <div>Cargando...</div>;
+    return <div>Loading...</div>;
   }
 
   return (
     isAuthenticated && (
       <div className='ScreenCourses'>
-        <h1>EPET 20</h1>
+        <h3>EPET 20</h3>
 
-        <button type="submit" className="App-button-Course">
-          <Link to="/ScreenCoursesSection5" className="App-link-Course">
+        <button type="submit" className="Button">
+          <Link to="/ScreenCoursesSection5" className="Link">
             <p>Quinto año 5°</p>
           </Link>
         </button><br /><br />
-        <button type="submit" className="App-button-Course">
-          <Link to="/ScreenCoursesSection6" className="App-link-Course">
+        <button type="submit" className="Button">
+          <Link to="/ScreenCoursesSection6" className="Link">
             <p>Sexto año 6°</p>
           </Link>
         </button><br /><br />
-        <button type="submit" className="App-button-Redirect-Init">
-          <Link to="/Section" className="App-link-Course">
+        <button type="submit" className="Button">
+          <Link to="/Section" className="Link">
             <p>Inicio</p>
           </Link>
         </button><br /><br />

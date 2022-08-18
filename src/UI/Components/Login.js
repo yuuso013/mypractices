@@ -5,7 +5,7 @@ export const LoginButton = () => {
   const { isLoading, loginWithRedirect } = useAuth0();
 
   if (isLoading) {
-    return <div>Cargando...</div>;
+    return <div>Loading...</div>;
   }
 
   return <button onClick={() => loginWithRedirect()}>Iniciar sesión</button>;

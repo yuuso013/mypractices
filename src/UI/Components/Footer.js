@@ -3,11 +3,16 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 
 const Footer = () => {
-  const { isAuthenticated } = useAuth0();
+  const { isAuthenticated, isLoading } = useAuth0();
+
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
+
   return (
     isAuthenticated && (
       <div className="Footer"> 
-        <p>Síguenos en nuestras redes sociales. Instagram. Facebook. Twitter.</p>
+        <h3>Síguenos en nuestras redes sociales. Instagram. Facebook. Twitter.</h3>
       </div>
 
     )
