@@ -12,6 +12,7 @@ import { SectionThree5 } from "./UI/Components/Sections/SectionThree5";
 import { SectionOne6 } from "./UI/Components/Sections/SectionOne6";
 import { SectionTwo6 } from "./UI/Components/Sections/SectionTwo6";
 import { SectionThree6 } from "./UI/Components/Sections/SectionThree6";
+
 function App() {
   return (
     <>
