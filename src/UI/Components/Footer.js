@@ -12,7 +12,11 @@ const Footer = () => {
   return (
     isAuthenticated && (
       <div className="Footer"> 
-        <h3>Síguenos en nuestras redes sociales. Instagram. Facebook. Twitter.</h3>
+        <h3>Síguenos en nuestras redes sociales... 
+          <a className='SocialMedia' href='https://www.instagram.com/epet20educacion/'>   Instagram   |   </a>
+          <a className='SocialMedia' href="https://es-la.facebook.com/EPET20">Facebook   |   </a>
+          <a className='SocialMedia' href="https://mobile.twitter.com/epet20educacion">Twitter</a>
+        </h3>
       </div>
 
     )

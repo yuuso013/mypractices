@@ -14,10 +14,19 @@ h2 {
     padding: 05px;
     border-radius: 15px;
     background-color: #166088;
+    justify-content: center;
+    word-wrap: break-word;
 }
 
 h3{
     background-color: #4F6D7A;
+}
+
+p {
+    background-color: #4A6FA5;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
 }
 
 .Login {
@@ -77,17 +86,9 @@ h3{
 .Link {
     background-color: #4A6FA5;
     margin: 30px;
-    padding: 0px 300px;
+    padding: 0px 50px;
     text-decoration: none;
 }
-
-p {
-    background-color: #4A6FA5;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
-}
-
 
 .Footer {
     border-radius: 30px;
@@ -95,4 +96,11 @@ p {
     padding: 15px;
     text-align: center;
     background-color: #4F6D7A;
+}
+
+.SocialMedia {
+    background-color: #4F6D7A;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
 }
