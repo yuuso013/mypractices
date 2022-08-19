@@ -1,0 +1,106 @@
+* {
+    background-color: #C0D6DF;
+}
+
+h1 {
+    margin: 05px;
+    padding: 05px;
+    border-radius: 15px;
+    background-color: #166088;
+}
+
+h2 {
+    margin: 05px;
+    padding: 05px;
+    border-radius: 15px;
+    background-color: #166088;
+    justify-content: center;
+    word-wrap: break-word;
+}
+
+h3{
+    background-color: #4F6D7A;
+}
+
+p {
+    background-color: #4A6FA5;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.Login {
+    border-style: none;
+}
+
+.App-header {
+    background-color: #166088;
+    border-radius: 40px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.App-profile {
+    background-color: #166088;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.Section {
+    background-color: #4F6D7A;
+    border-radius: 40px;
+    margin: 30px 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.ScreenCourses {
+    background-color: #4F6D7A;
+    border-radius: 30px;
+    margin: 30px 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.Sections {
+    background-color: #166088;
+    border-radius: 30px;
+    margin: 30px 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.Button {
+    background-color: #4A6FA5;
+    margin: 20px;
+    padding: 0px 30px;
+    border-radius: 20px;
+    text-overflow: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Link {
+    background-color: #4A6FA5;
+    margin: 30px;
+    padding: 0px 50px;
+    text-decoration: none;
+}
+
+.Footer {
+    border-radius: 30px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    background-color: #4F6D7A;
+}
+
+.SocialMedia {
+    background-color: #4F6D7A;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
