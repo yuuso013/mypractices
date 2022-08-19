@@ -26,3 +26,5 @@ async function main() {
   console.log("Server on port", app.get("port"));
   console.log("Environment:", process.env.NODE_ENV);
 }
+
+main();
