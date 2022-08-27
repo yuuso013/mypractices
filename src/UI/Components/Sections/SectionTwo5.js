@@ -11,7 +11,7 @@ export const SectionTwo5 = () => {
   return (
     isAuthenticated && (
     <div className='Sections'>
-        <h2>5° Año | 2do curso</h2>
+        <h2>EPET 20 | 5° Año | 2do curso</h2>
 
         <button type="submit" className="Button">
           <Link to="/Section" className="Link">

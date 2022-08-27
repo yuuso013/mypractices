@@ -13,7 +13,7 @@ export const ScreenCoursesSection6 = () => {
   return (
     isAuthenticated && (
       <div className='ScreenCourses'>
-        <h3>Sexto año (6°)</h3>
+        <h3>EPET 20 | Sexto año (6°)</h3>
         
         <button type="submit" className="Button">
           <Link to="/SectionOne6" className="Link">
