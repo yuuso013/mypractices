@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth0 } from "@auth0/auth0-react";
+import imgcasa from '../../Styles/img/imgcasa.png'
+
 
 export const SectionOne5 = () => {
   const { isAuthenticated, isLoading } = useAuth0();
@@ -16,7 +18,9 @@ export const SectionOne5 = () => {
 
         <button type="submit" className="Button">
           <Link to="/Section" className="Link">
-            <p>Inicio</p>
+          <div className='imageninicio'>
+            <img src={imgcasa} alt='Inicio'/>
+          </div>
           </Link>
         </button><br /><br />
     </div>
