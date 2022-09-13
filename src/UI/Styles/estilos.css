@@ -205,8 +205,9 @@ p {
 
 .imageninicio{
     background-color: #4A6FA5;
-    width: 20%;
-    max-width: 100px;
+    width: 35%;
+    height: 40px;
+    max-width: 80px;
     display: block;
     margin: 0px auto;
     text-align: center;
