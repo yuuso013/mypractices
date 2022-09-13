@@ -130,6 +130,17 @@ p {
     justify-content: center;
     text-decoration: none;
 }
+.imgtwitter{
+    background-color: #4F6D7A;
+    width: 50%;
+    max-width: 70px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    padding: 0px 10px;
+    justify-content: center;
+    text-decoration: none;
+}
 
 .Section {
     background-color: #4F6D7A;
