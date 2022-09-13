@@ -144,6 +144,7 @@ td{
 }
 
 .imageninicio{
+    background-color: #4A6FA5;
     width: 20%;
     max-width: 100px;
     display: block;
@@ -155,6 +156,7 @@ td{
 }
 
 img{
+    background-color: #4A6FA5;
     width: 100%;
     height: auto;
 }
