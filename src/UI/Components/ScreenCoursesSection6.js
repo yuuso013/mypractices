@@ -34,7 +34,7 @@ export const ScreenCoursesSection6 = () => {
         <button type="submit" className="Button">
           <Link to="/Section" className="Link">
           <div className='imageninicio'>
-            <img class='img-fluid' src={imgcasa} alt='Inicio'/>
+            <img src={imgcasa} alt='Inicio'/>
           </div>
           </Link>
         </button><br /><br />
