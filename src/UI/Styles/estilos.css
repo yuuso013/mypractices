@@ -51,19 +51,19 @@ p {
     margin: 15px;
     padding: 15px;
 }
-table{
+.table_profile{
     background-color: #166088;
     border-color: #166088;
     display: flex;
     text-align: center;
     justify-content: center;
 }
-tr{
+.tr_profile{
     background-color: #166088;
     border-color: #166088;
     border-radius: 20px;
 }
-td{
+.td_profile{
     background-color: #166088;
     border-color: #166088;
     border-radius: 20px;
@@ -95,10 +95,23 @@ td{
     justify-content: right;
     text-decoration: none;
 }
+
+.table_footer{
+    background-color: #4F6D7A;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.tr_footer{
+    background-color: #4F6D7A;
+}
+.td_footer{
+    background-color: #4F6D7A;
+}
 .imginstagram{
     background-color: #4F6D7A;
-    width: 10%;
-    max-width: 60px;
+    width: 50%;
+    max-width: 70px;
     display: block;
     margin: 0px auto;
     text-align: center;
@@ -106,6 +119,18 @@ td{
     justify-content: center;
     text-decoration: none;
 }
+.imgfacebook{
+    background-color: #4F6D7A;
+    width: 50%;
+    max-width: 70px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    padding: 0px 10px;
+    justify-content: center;
+    text-decoration: none;
+}
+
 .Section {
     background-color: #4F6D7A;
     border-radius: 40px;
@@ -160,6 +185,7 @@ td{
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
+    display: block;
 }
 
 .img-fluid{
