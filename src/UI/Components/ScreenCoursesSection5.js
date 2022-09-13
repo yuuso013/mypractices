@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth0 } from "@auth0/auth0-react";
+import imgcasa from "../Styles/img/imgcasa.png";
 
 export const ScreenCoursesSection5 = () => {
   const { isAuthenticated, isLoading } = useAuth0();
@@ -12,7 +13,7 @@ export const ScreenCoursesSection5 = () => {
   return (
     isAuthenticated && (
       <div className='ScreenCourses'>
-        <h3>Quinto año (5°)</h3>
+        <h3>EPET 20 | Quinto año (5°)</h3>
 
         <button type="submit" className="Button">
           <Link to="/SectionOne5" className="Link">
@@ -31,7 +32,9 @@ export const ScreenCoursesSection5 = () => {
         </button><br /><br />
         <button type="submit" className="Button">
           <Link to="/Section" className="Link">
-            <p>Inicio</p>
+          <div className='imageninicio'>
+            <img src={imgcasa} alt='Inicio'/>
+          </div>
           </Link>
         </button><br /><br />
       </div>
