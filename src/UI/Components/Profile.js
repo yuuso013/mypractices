@@ -1,6 +1,7 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
-import epet20 from "../Styles/img/epet20.png";
+import imgprofile1 from "../Styles/img/imgprofile1.jpeg";
+import imgprofile2 from "../Styles/img/imgprofile2.jpeg";
 
 export const Profile = () => {
   const { user, isAuthenticated, isLoading } = useAuth0();
@@ -16,7 +17,7 @@ export const Profile = () => {
           <tr>
             <td>
               <div className="imgepet1">
-                <img src={epet20} alt='Epet20_imagen' />
+                <img src={imgprofile1} alt='imagenprofile1' />
               </div>
             </td>
             <td>
@@ -25,7 +26,7 @@ export const Profile = () => {
             </td>
             <td>
               <div className="imgepet2">
-                <img src={epet20} alt='Epet20_imagen' />
+                <img src={imgprofile2} alt='imagenprofile2' />
               </div>
             </td>
           </tr>

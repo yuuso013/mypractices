@@ -53,16 +53,26 @@ p {
 }
 table{
     background-color: #166088;
+    border-color: #166088;
     display: flex;
     text-align: center;
     justify-content: center;
 }
+tr{
+    background-color: #166088;
+    border-color: #166088;
+    border-radius: 20px;
+}
 td{
     background-color: #166088;
+    border-color: #166088;
+    border-radius: 20px;
 }
 
 .imgepet1{
     background-color: #166088;
+    border-color: #166088;
+    border-radius: 20px;
     width: 100%;
     max-width: 200px;
     display: block;
@@ -74,6 +84,8 @@ td{
 }
 .imgepet2{
     background-color: #166088;
+    border-color: #166088;
+    border-radius: 20px;
     width: 100%;
     max-width: 200px;
     display: block;
