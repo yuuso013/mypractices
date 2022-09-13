@@ -81,6 +81,8 @@ p {
     padding: 0px 0px;
     justify-content: left;
     text-decoration: none;
+    word-wrap: break-word;
+
 }
 .imgprofile2{
     background-color: #166088;
@@ -94,6 +96,7 @@ p {
     padding: 0px 0px;
     justify-content: right;
     text-decoration: none;
+    word-wrap: break-word;
 }
 
 .table_footer{
@@ -197,6 +200,8 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
     display: block;
+    word-wrap: break-word;
+
 }
 
 .img-fluid{
