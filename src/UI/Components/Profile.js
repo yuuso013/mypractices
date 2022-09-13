@@ -16,7 +16,7 @@ export const Profile = () => {
         <table>
           <tr>
             <td>
-              <div className="imgepet1">
+              <div className="imgprofile1">
                 <img src={imgprofile1} alt='imagenprofile1' />
               </div>
             </td>
@@ -25,7 +25,7 @@ export const Profile = () => {
               <h2>Email del usuario: {user.email}</h2>
             </td>
             <td>
-              <div className="imgepet2">
+              <div className="imgprofile2">
                 <img src={imgprofile2} alt='imagenprofile2' />
               </div>
             </td>

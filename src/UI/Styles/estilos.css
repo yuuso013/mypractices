@@ -69,7 +69,7 @@ td{
     border-radius: 20px;
 }
 
-.imgepet1{
+.imgprofile1{
     background-color: #166088;
     border-color: #166088;
     border-radius: 20px;
@@ -82,17 +82,28 @@ td{
     justify-content: left;
     text-decoration: none;
 }
-.imgepet2{
+.imgprofile2{
     background-color: #166088;
     border-color: #166088;
     border-radius: 20px;
     width: 100%;
-    max-width: 200px;
+    max-width: 250px;
     display: block;
     margin: 0px auto;
     text-align: right;
     padding: 0px 0px;
     justify-content: right;
+    text-decoration: none;
+}
+.imginstagram{
+    background-color: #4F6D7A;
+    width: 10%;
+    max-width: 60px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    padding: 0px 10px;
+    justify-content: center;
     text-decoration: none;
 }
 .Section {
