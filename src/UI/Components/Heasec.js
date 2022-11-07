@@ -1,9 +1,9 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import React from "react";
 import Section from "./Section";
-import { ScreenCourses } from "./ScreenCourses";
+import Header from "./Header"
 
-export default function Header() {
+export default function Heasec() {
     const { isAuthenticated } = useAuth0();
     return(
 
@@ -13,9 +13,7 @@ export default function Header() {
             <Header />
             <Section/>
           </>
-        ) : (
-          <ScreenCourses/>
-        )}
+    )
       </div>
     )
     )
