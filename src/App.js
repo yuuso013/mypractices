@@ -1,4 +1,6 @@
 import React from "react";
+import {Header} from "./UI/Components/Header";
+import { Section } from "./UI/Components/Section";
 import { ScreenCourses } from "./UI/Components/ScreenCourses";
 import { ScreenCoursesSection5 } from "./UI/Components/ScreenCoursesSection5";
 import { ScreenCoursesSection6 } from "./UI/Components/ScreenCoursesSection6";
@@ -15,9 +17,11 @@ import './UI/Styles/estilos.css'
 function App() {
   return (
     <>
-    <ScreenCourses></ScreenCourses>
+      <Header></Header>
+      <Section></Section>
       <BrowserRouter>
         <Routes>
+          <Route exact path="/ScreenCourses" element={<ScreenCourses />} />
           <Route exact path="/ScreenCoursesSection5" element={<ScreenCoursesSection5 />} />
           <Route exact path="/ScreenCoursesSection6" element={<ScreenCoursesSection6 />} />
           <Route exact path="/SectionOne5" element={<SectionOne5 />} />
