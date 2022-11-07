@@ -1,6 +1,5 @@
 import React from "react";
-import {Header} from "./UI/Components/Header";
-import { Section } from "./UI/Components/Section";
+import Section from "./UI/Components/Section";
 import { ScreenCourses } from "./UI/Components/ScreenCourses";
 import { ScreenCoursesSection5 } from "./UI/Components/ScreenCoursesSection5";
 import { ScreenCoursesSection6 } from "./UI/Components/ScreenCoursesSection6";
@@ -11,15 +10,16 @@ import { SectionThree5 } from "./UI/Components/Sections/SectionThree5";
 import { SectionOne6 } from "./UI/Components/Sections/SectionOne6";
 import { SectionTwo6 } from "./UI/Components/Sections/SectionTwo6";
 import { SectionThree6 } from "./UI/Components/Sections/SectionThree6";
-import {Footer} from "/UI/Components/Footer";
 import './UI/Styles/estilos.css'
+import Header from "./UI/Components/Header";
+import Footer from "./UI/Components/Footer";
 
 function App() {
   return (
     <>
       <Header></Header>
-      <Section></Section>
       <BrowserRouter>
+      <Section></Section>
         <Routes>
           <Route exact path="/ScreenCourses" element={<ScreenCourses />} />
           <Route exact path="/ScreenCoursesSection5" element={<ScreenCoursesSection5 />} />
