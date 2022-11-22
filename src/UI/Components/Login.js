@@ -1,5 +1,6 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
+import epet20 from "../Styles/img/epet20.png";
 
 export const LoginButton = () => {
   const { isLoading, loginWithRedirect } = useAuth0();
@@ -13,7 +14,7 @@ export const LoginButton = () => {
       <h1>Si desea ingresar a "Mis Prácticas" para observar su lugar de pasantía, inicie sesión</h1>
       <td className="td_profile">
               <div className="imgprofile2">
-                <img src={logotipo_app} alt='imagenLogotipo' />
+                <img src={epet20} alt='imagenFondo' />
               </div>
             </td>
       <button className="Button" onClick={() => loginWithRedirect()}>Iniciar sesión</button>
