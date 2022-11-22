@@ -69,6 +69,13 @@ p {
     border-radius: 20px;
 }
 
+.td_profile-login{
+    background-color: #166088;
+    border-color: #166088;
+padding: 10px 500px;
+    text-align: left;
+}
+
 .imgprofile1{
     background-color: #166088;
     border-color: #166088;
@@ -99,20 +106,7 @@ p {
     word-wrap: break-word;
 }
 
-.imglog{
-    background-color: #166088;
-    border-color: #166088;
-    border-radius: 20px;
-    width: 100%;
-    max-width: 205px;
-    display: block;
 
-    text-align: center;
-    padding: 0px 0px;
-    justify-content: right;
-    text-decoration: none;
-    word-wrap: break-word;
-}
 
 .table_footer{
     background-color: #4F6D7A;

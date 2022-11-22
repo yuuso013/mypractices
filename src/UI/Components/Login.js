@@ -12,8 +12,8 @@ export const LoginButton = () => {
   return (
     <div className="App-header">
       <h1>Si desea ingresar a "Mis Prácticas" para observar su lugar de pasantía, inicie sesión</h1>
-      <td className="td_profile">
-              <div className="imglog">
+      <td className="td_profile-login">
+              <div className="imgprofile2">
                 <img src={epet20} alt='imagenFondo' />
               </div>
             </td>
