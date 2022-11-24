@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import { useAuth0 } from "@auth0/auth0-react";
 import imgcasa from "../../Styles/img/imgcasa.png"
+import goback from '../../Styles/img/go_back.png'
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../../firebase/FirebaseConfig"
 
@@ -50,6 +51,13 @@ export const SectionThree6 = () => {
             <div className='imageninicio'>
               <img src={imgcasa} alt='Inicio' />
             </div>
+          </Link>
+        </button>
+        <button type="submit" className="Button">
+          <Link to="/ScreenCoursesSection6" className="Link">
+          <div className='imageninicio'>
+            <img src={goback} alt='Inicio'/>
+          </div>
           </Link>
         </button><br /><br />
       </div>
