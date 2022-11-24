@@ -41,6 +41,14 @@ p {
     background-size: cover;
     background-attachment: fixed;
 }
+.fondo_alumnos{
+    margin: 05px;
+    padding: 05px;
+    border-radius: 15px;
+    background-color: #166088;
+    justify-content: center;
+    word-wrap: break-word;
+}
 
 .App-header {
     background-color: #166088;

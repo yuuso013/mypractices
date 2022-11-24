@@ -34,8 +34,8 @@ export const SectionTwo5 = () => {
         <div className='App-header'>
           {
             lista.map(list =>(
-              <div key={list.id}>
-                <p>Nombre: {list.nombre} Apellido: {list.apellido}</p>
+              <div key={list.id} className="fondo_alumnos">
+                <p className="fondo_alumnos">Nombre: {list.nombre} Apellido: {list.apellido}</p>
               </div>
             ))
           }

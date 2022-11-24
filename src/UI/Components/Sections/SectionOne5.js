@@ -40,8 +40,8 @@ export const SectionOne5 = () => {
         <div className='App-header'>
           {
             lista.map(list =>(
-              <div key={list.id}>
-                <p>Nombre: {list.nombre} Apellido: {list.apellido} Lugar: {list.lugar}</p>
+              <div key={list.id} className="fondo_alumnos">
+                <p className="fondo_alumnos">Nombre: {list.nombre} Apellido: {list.apellido} Lugar: {list.lugar}</p>
               </div>
             ))
           }
