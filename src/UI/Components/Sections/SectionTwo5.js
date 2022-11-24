@@ -34,11 +34,11 @@ export const SectionTwo5 = () => {
         <div className='App-header'>
           {
             lista.map(list =>(
-              <div key={list.id} className="fondo_alumnos">
+              <div key={list.id} className="fondo_alumnos_caja">
                 <ul className='ul_alumnos'>
-                <li><p className="fondo_alumnos">Nombre: {list.nombre} </p></li>
-                <li><p className="fondo_alumnos">Apellido: {list.apellido}</p></li>
-                <li><p className="fondo_alumnos">Lugar: {list.lugar}</p></li>
+                <li className="fondo_alumnos_caja"><p className="fondo_alumnos">Nombre: {list.nombre} </p></li>
+                <li className="fondo_alumnos_caja"><p className="fondo_alumnos">Apellido: {list.apellido}</p></li>
+                <li className="fondo_alumnos_caja"><p className="fondo_alumnos">Lugar: {list.lugar}</p></li>
                 </ul>
               </div>
             ))
