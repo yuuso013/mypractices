@@ -13,15 +13,16 @@ import { SectionOne6 } from "./UI/Components/Sections/SectionOne6";
 import { SectionTwo6 } from "./UI/Components/Sections/SectionTwo6";
 import { SectionThree6 } from "./UI/Components/Sections/SectionThree6";
 import './UI/Styles/estilos.css'
-
 function App() {
+
   return (
-    <>
+    <> 
+    <div className="Fondo">
       <Header></Header>
       <BrowserRouter>
       <Section></Section>
         <Routes>
-          <Route exact path="/ScreenCourses" element={<ScreenCourses />} />
+          <Route exact path="/ScreenCourses" element={<ScreenCourses />} />z
           <Route exact path="/ScreenCoursesSection5" element={<ScreenCoursesSection5 />} />
           <Route exact path="/ScreenCoursesSection6" element={<ScreenCoursesSection6 />} />
           <Route exact path="/SectionOne5" element={<SectionOne5 />} />
@@ -33,6 +34,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Footer></Footer>
+    </div>
     </>
   );
 }
