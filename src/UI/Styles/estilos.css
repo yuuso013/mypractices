@@ -49,6 +49,10 @@ p {
     justify-content: center;
     word-wrap: break-word;
 }
+.ul_alumnos{
+    display: inline-flex;
+    list-style: none;
+}
 
 .App-header {
     background-color: #166088;

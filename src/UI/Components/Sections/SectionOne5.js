@@ -41,7 +41,11 @@ export const SectionOne5 = () => {
           {
             lista.map(list =>(
               <div key={list.id} className="fondo_alumnos">
-                <p className="fondo_alumnos">Nombre: {list.nombre} Apellido: {list.apellido} Lugar: {list.lugar}</p>
+                <ul className='ul_alumnos'>
+                <li><p className="fondo_alumnos">Nombre: {list.nombre} </p></li>
+                <li><p className="fondo_alumnos">Apellido: {list.apellido}</p></li>
+                <li><p className="fondo_alumnos">Lugar: {list.lugar}</p></li>
+                </ul>
               </div>
             ))
           }
