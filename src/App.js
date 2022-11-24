@@ -17,6 +17,7 @@ import './UI/Styles/estilos.css'
 function App() {
   return (
     <>
+    <div className="Fondo">
       <Header></Header>
       <BrowserRouter>
       <Section></Section>
@@ -33,6 +34,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Footer></Footer>
+    </div>
     </>
   );
 }
