@@ -35,7 +35,7 @@ export const SectionTwo5 = () => {
           {
             lista.map(list =>(
               <div key={list.id} className="fondo_alumnos">
-                <p className="fondo_alumnos">Nombre: {list.nombre} Apellido: {list.apellido}</p>
+                <p className="fondo_alumnos">Nombre: {list.nombre} Apellido: {list.apellido} Lugar: {list.lugar}</p>
               </div>
             ))
           }
