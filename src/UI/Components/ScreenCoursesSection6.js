@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth0 } from "@auth0/auth0-react";
 import imgcasa from "../Styles/img/imgcasa.png"
+import goback from '../Styles/img/go_back.png'
+
 
 
 export const ScreenCoursesSection6 = () => {
@@ -35,6 +37,13 @@ export const ScreenCoursesSection6 = () => {
           <Link to="/Section" className="Link">
           <div className='imageninicio'>
             <img src={imgcasa} alt='Inicio'/>
+          </div>
+          </Link>
+        </button>
+        <button type="submit" className="Button">
+          <Link to="/ScreenCourses" className="Link">
+          <div className='imageninicio'>
+            <img src={goback} alt='Inicio'/>
           </div>
           </Link>
         </button><br /><br />
